@@ -12,7 +12,7 @@
 
 文件名：
 
-'echarts.min.js'
+`echarts.min.js`
 
 说明：
 
@@ -22,7 +22,7 @@
 
 你还可以：
 
-- 在[ECharts 的官网](http://echarts.baidu.com/download.html)下载其他版本
+- 在 [ECharts 的官网](http://echarts.baidu.com/download.html)下载其他版本
 
 - 在 [ECharts 的 Github 仓库](https://github.com/ecomfe/echarts)获取最新 Release
 
@@ -60,27 +60,39 @@
 
 `option.js`
 
+说明：
+
+提供显示图表所需的配置信息，此处兼有主要地级市的位置信息。
+
+你可以通过修改它实现[自定义](https://github.com/Yves-X/Classmates-Contact-Map#自定义)。
+
 ## 2. 提供一个具有确定尺寸的 DOM
 
 例如：
 
-`<div id="main" style="width: 1024px;height: 768px;"></div>`
+```html
+<div id="main" style="width: 1024px;height: 768px;"></div>
+```
 
 ## 3. 初始化一个实例
 
 例如：
 
-`<script>var myChart = echarts.init(document.getElementById('main'));</script>`
+```html
+<script>var myChart = echarts.init(document.getElementById('main'));</script>
+```
 
 ## 4. 应用配置文件显图表
 
 例如：
 
-`<script>myChart.setOption(option);</script>`
+```html
+<script>myChart.setOption(option);</script>
+```
 
 ## 一个完整的示例
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <header>
