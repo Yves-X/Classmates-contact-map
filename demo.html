@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <title>Demo</title>
+    <meta charset="utf-8">
+    <script src="data.js"></script>
+    <script src="echarts.min.js"></script>
+    <script src="china.js"></script>
+    <script src="option.js"></script>
+</header>
+
+<body>
+    <!-- Supply a DOM with absolute size for the chart-->
+    <div id="main" style="width: 1024px;height: 768px;"></div>
+    <script>
+    // Initialize an instance based on the DOM
+    var myChart = echarts.init(document.getElementById('main'));
+    // Apply
+    myChart.setOption(option);
+    </script>
+</body>
+
+</html>
