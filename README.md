@@ -82,7 +82,7 @@
 <script>var myChart = echarts.init(document.getElementById('main'));</script>
 ```
 
-## 4. 应用配置文件显图表
+## 4. 应用配置文件显示图表
 
 例如：
 
