@@ -28,7 +28,7 @@
 
 - [npm 安装 ECharts](http://echarts.baidu.com/tutorial.html#%E5%9C%A8%20webpack%20%E4%B8%AD%E4%BD%BF%E7%94%A8%20ECharts)
 
-- CDN 引入，例如： [BootCDN](http://www.bootcdn.cn/echarts/) 或 [CDNJS](https://cdnjs.com/libraries/echarts)，[NPMCDN](https://npmcdn.com/echarts@latest/dist/)
+- CDN 引入，例如： [BootCDN](http://www.bootcdn.cn/echarts/) 或 [CDNJS](https://cdnjs.com/libraries/echarts)，[NPMCDN](https://unpkg.com/echarts@latest/dist/)
 
 ### 成员和位置数据
 
